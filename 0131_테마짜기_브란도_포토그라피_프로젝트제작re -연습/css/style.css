@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url('./fonts.css');
+@import url('./reset.css');
+@import url('./skip.css');
+
+#wrap #header{}
+#wrap #header .container{}
+#wrap #header .container .gap{}
+#wrap #header .container .gap.content{}
+#wrap #header .container .gap.content .logo{}
+#wrap #header .container .gap.content .logo h1{}
+#wrap #header .container .gap.content .logo h1 a{}
+#wrap #header .container .gap.content .logo h1 a img{}
+
+
+#wrap #header .nav{}
+#wrap #header .nav ul{}
+#wrap #header .nav ul li{}
+#wrap #header .nav ul li a{}
+
+#wrap #main{width: 100%; }
+#wrap #main .sec1234{width: 100%;background: url() no-repeat 50% 50% fixed; background-size: cover;}
+#wrap #main .sec1234 h2{width: 100%; font-size: 200px; font-weight: 600;}
+#wrap #main .sec1234 .foot-box{width: 100%;}
+#wrap #main .sec1234 .foot-box h6{width: 100%;}
+#wrap #main .sec1234 .foot-box i{}
+
+#wrap #main #section1{background-image: url(../img/photography-img1.jpg);}
+#wrap #main #section2{background-image: url(../img/photography-img2.jpg);}
+#wrap #main #section3{background-image: url(../img/photography-img3.jpg);}
+#wrap #main #section4{background-image: url(../img/photography-img4.jpg);}
+
+
+
+
+

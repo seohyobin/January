@@ -1,0 +1,35 @@
+justify-content: space-between;
+죄우 사이 비우고 넣어줭
+
+
+#wrap #header{
+    width: 100%; 
+    height: 76px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0,0,0,0);
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 3;}
+
+
+
+
+#wrap #header .container .gap .content .logo h1 a{width: 100%; display: block;}
+/* a 태그는 인라인요소라 너비 가질수없음 width의미없음->display block변경해야지 너비지정가능,
+a태그 이미지크기에 따라서 변경*/
+
+로고는 부모요소 너비 잡아주고 작업해야해->
+#wrap #header .container .gap .content .logo{width: 156px;}
+
+
+****리셋에서 지정한 스타일이 우선이야!!!!!
+
+ul{list-style: none;}리스트 앞에 점 제거
+
+#wrap #header .container .gap .content .nav ul{display:flex;} 단순히 인라인만할떄는 플렉스
+#wrap #header .container .gap .content .nav ul li{margin: 0 0 0 30px;->홈페이지처럼 변경
+
+
+display flex는 인라인으로 변경
+

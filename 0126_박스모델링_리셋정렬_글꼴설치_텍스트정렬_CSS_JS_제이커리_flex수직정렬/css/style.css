@@ -1,0 +1,117 @@
+#wrap{width: 100%;text-align: center;}
+#wrap #header{width: 100%;
+    height: 123px;
+    background-color:rgba(246,245,239,1); 
+    /* border-top: 2px 선두께 선종류(실선 solid 점선dotted) 선색상(파랑); */
+    border-top: 2px solid rgb(0,0,0);
+    border-bottom: 1px solid rgb(229, 229, 229);
+    color: rgb(0,0,0);
+    display: flex;
+    justify-content: center;/* 수평 가운데 */
+    align-items: center;/* 수직 가운데 */
+    /* 가운데 */
+   /* 수평정렬 shift+alt+a 범위주석*/ 
+   /* 수직,수평정렬 레이아웃 */
+   /* flex는 현재의 자식요소를 수평과 수직정렬을 할 수있다. 단 자신의 너비,높이가 설정되어야 가능하다. text-align: center는 플렉스 사용시 의미없음 / 플렉스를 지정하면 자식요소는 인라인 요소로 바뀐다. */;}  
+
+#wrap #main{width: 100%;}
+#wrap #main #section1 {
+    width: 100%; 
+    height: 652.797px; 
+    /*background:색상,이미지경로와(path경로와 이미지파일이름,확장자),이미지반복여부,X좌표(수평 좌 가운데 우),Y(수직 위 가운데 아래)좌표   
+    background:rgb(255,255,255) url() no-repeat 0 0;
+    background:rgb(255,255,255) url() no-repeat left top;
+    background:rgb(255,255,255) url() no-repeat center center;
+    background:rgb(255,255,255) url() no-repeat right bottom;
+    background:rgb(255,255,255) url() no-repeat 0% 0%;왼쪽
+    background:rgb(255,255,255) url() no-repeat 50% 50%;가운데
+    background:rgb(255,255,255) url() no-repeat 100% 100%;오른쪽
+    background:rgb(255,255,255) url(../img/2023_newyear_top_bg.jpg) repeat반복 0% 0%;*/
+    background:rgb(255,255,255) url(../img/2023_newyear_top_bg.jpg) no-repeat 50% 50%;
+    /*배경이미지 크기 설정 
+    background-size: 100% auto높이 안맞고 너비만 맞음;
+    background-size: auto원래 크기로 유지
+    background-size: contain*/
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;}
+#wrap #main #section2 {
+    width: 100%; 
+    height: 62px; 
+    background-color: rgba(130,180,0,1);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+    /*자식요소는 부모요소의 높이 너비에 상대적이다. 부모요소 높이가 있어야 자식요소 높이 잡힘 만약 부모 높이가 없다면 자식요소에서 높이 100%는 0이다. 즉 높이는 없다.*/
+#wrap #main #section2 .left-box {
+    width:50%; 
+    height:100%; 
+    background:rgb(0,0,0)}    
+#wrap #main #section2 .right-box{
+    width:50%; 
+    height:100%; 
+    background:rgb(255,255,255);}
+#wrap #main #section3 {
+    /*투명설정 opacity: 30%;*/
+    width: 100%; 
+    height: 240.172px; 
+    background-color: rgba(30,57,50,1); 
+    padding: 30px 0 40px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+#wrap #main #section4 {
+    width: 100%; 
+    height: 573px; 
+    background:url(../img/2023_newyear_promotion_bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+#wrap #main #section5 {
+    width: 100%; 
+    height: 400px; 
+    background:url(../img/221220_pc_reserve_bg.png) no-repeat 50% 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+#wrap #main #section6 {
+    width: 100%; 
+    height: 800px; 
+    background-color: rgba(220,150,150,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: url(../img/2022_Chrismas2_PTF_bg.png) no-repeat 50% 50% scroll;*/
+    background: url(../img/2022_Chrismas2_PTF_bg.png) no-repeat 50% 50% fixed;
+    background-size: cover;}
+
+#wrap #main #section7 {
+    width: 100%; 
+    height: 400px; 
+    background: url(../img/reserve_bg_pc.png) no-repeat 50% 100%;
+    background-size: auto 350px;
+    /*background-size: auto 350px 
+    background-size: 100% auto  -> 이미지는 한쪽 auto 해야해;*/
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+#wrap #main #section8 {
+    width: 100%; 
+    height: 400px; 
+    background: url(../img/store_bg.jpg) no-repeat 50% 50%; 
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;}
+    
+#wrap #footer{
+    width: 100%; 
+    height: 601px; 
+    background-color: rgba(44,42,41,1);
+    padding: 32px 0 35px 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;}
+

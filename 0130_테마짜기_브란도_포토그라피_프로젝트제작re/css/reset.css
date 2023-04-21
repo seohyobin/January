@@ -1,0 +1,9 @@
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+body { font:normal 14px/1 'Montserrat','Nanum Gothic', 'Noto Sans', 'Roboto'; color: rgb(60,60,60);}
+a {color: rgba(255,255,255,1); text-decoration: none;}
+/* a:visited { color: rgb(160, 160, 160);}
+a:hover { color: rgb(0, 0, 0);}
+a:focus {color:rgb(170,0,100); text-decoration:underline;}
+a:active {color:rgb(60,60,60);} */
+ul {list-style: none;}

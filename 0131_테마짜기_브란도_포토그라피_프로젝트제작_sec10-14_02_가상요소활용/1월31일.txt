@@ -1,0 +1,65 @@
+p태그 안에 h1~6태그는 넣을수 없음
+동등한 형제요소는 가능, 서로 안에 넣을수 없음
+
+포지션 앱솔루트->인라인 는 
+내가 원하는 위치 어디든 넣을수있음
+
+
+ <div class="bg"> </div> 흐리게해버려서 글자까지 흐려지기때문에 ㅂbg따로 만들어서 넣어줌!
+
+position: relative 부모가 잡아줌->그래서 못나가 블럭요소 높이와 너비만 영향받음
+
+z-index 은 포지션이 있어야 돼
+
+
+margin: 0 auto 박스 가운데정렬
+
+display: flex 인라인으로 변경
+
+h1~h6까지는 헤딩이라 글씨가 굵음
+
+i,a,span인라잉ㄴ태ㅡ
+
+
+수직졍렬(align-items: center)은 전체높이의 가운데-<자식들 높이 잡아야함
+
+
+
+
+
+h4,i태그가 한줄로 됨
+->일부러 수직정렬, h4크기를 100%로 만들어줘야함
+
+line-height: 150%글자높이의 반 
+\
+두개이상
+
+
+
+content:''; 가상요소만들때 필수
+
+ position: absolute;->사용할때 부모에position: relative;있어야함
+
+
+top: 0;맨위 left: 0; 맨 왼쪽 
+
+
+
+background-position: 50%(좌우) 20%(위 아래)
+
+
+ #wrap #main .sec10-14:hover::after ->after위에올리면 호버 동작
+
+
+#wrap #main .sec10-14 .container .gap{margin: 0 15px; display: flex;}->두개의 박스가 한줄로 display: flex;
+
+
+
+  가상요소 before, after->content: ''->인라인요소  그래서 display block설정 필요
+
+flex가 안먹는이유 -> 감싸는 부모 요소에서 지정해줘야함
+
+
+
+
+

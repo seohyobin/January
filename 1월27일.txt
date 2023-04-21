@@ -1,0 +1,38 @@
+a href 링크참조연결, 아이디(id)만 연결가능,#뒤에->아이디는 하나만 사용 가능하니깐
+바로가기메뉴는 아이디 연결해서 찾아감
+skip은 헤더 위에 만들어야함(<header id="header"></header>)
+<ul id="skip">
+            <li><a href="#header">메뉴바로가기</a></li>
+            <li><a href="#main">메인바로가기</a></li>
+            <li><a href="#footer">하단바로가기</a></li>
+        </ul>
+
+링크태그는 파란색, 밑줄있음
+
+a태그->인라인 요소 모든 인라인 요소는 글자 높이(폰트사이즈)에 따라 차지할뿐 높이와 너비가 없다. 
+body { font:normal 14px/1(14픽셀만큼만 잡아 ->여백 없어짐,1이 100%뜻함) 'Nanum Gothic', 'Noto Sans', 'Roboto'; color: rgb(60,60,60);}
+a:focus 키보드로 접슨
+
+
+시멘틱- header main footer
+
+
+제트인덱션은 반드시 포지션설정이 있어야 가능하다. 높은 숫자가 가장 위로 옴
+
+position: relative;  ->z인덱션 사용하기 위해 가장 기본으로 설정 \
+
+
+
+#wrap #main #section2 .left {width: 50%;height:100%;background: rgb(0,0,0);}
+#wrap #main #section2 .right {width: 50%;height:100%;background: rgb(255,255,255);}
+
+
+
+
+ background-image: linear-gradient(to right,rgb(0,0,0) 50%시작 ,rgb(255,255,255)50%끝)-합해서 100
+ background-image: linear-gradient(to right,rgb(0,0,0) 50% ,rgb(255,255,255)70%)->70%위치부터 두번째 rgb시작50%까지는 검정색
+ctrl+f 검색
+ctrl+/ 주석처리
+
+
+

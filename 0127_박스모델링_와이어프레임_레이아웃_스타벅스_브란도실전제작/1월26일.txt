@@ -1,0 +1,64 @@
+마진, 패딩 사용법
+/* 마진 속성 값 시계방향으로 회전한다. */
+/* body {margin-top: 0;}
+body {margin-right: 0;}
+body {margin-bottom: 0;}
+body {margin-left: 0;} *
+body {margin: 0 0 0 0;}
+위 오른쪽 아래 왼쪽, 시계방향 */
+
+/* body {margin: 0 0 0 0;} 권장사항
+body {margin(밖 여백)/padding(안 여백): 0;}
+body {margin/padding: 0 100pX 0 0 ;} 수정할때
+body {margin-right: 100px;} 수정할때 권장사항
+body {margin: 100px 0 100px 0;}
+body {margin: 100px 0;} 위쪽 아래쪽/왼쪽 오른쪽 */
+
+
+***reset.css
+기본설정
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+body { font:normal 14px/1 '맑음고딕','arial';}
+
+vertical-align: middle; 이미지 여백 없애기
+box-sizing:border-box; 박스모델링 에 너비 높이 패딩 보더 포함값 초기설정
+box-sizing:content-box; 너비 높이 패딩 보더 따로 할거야
+
+****페이지 만드는 순서 뼈대
+<div id="wrap"> 문서시작
+<div id="wrap">
+        <heaer id="header"></heaer> ->header#header
+        <main id="main"></main>
+        <footer id="footer"></footer>
+    </div>
+
+바로가기는 아이디랑 같은 이름으로 써야해
+
+스크룰바 17px 있어서 1903
+
+
+***style
+padding/line-height /flex
+#wrap{width: 100%; text-align: center;}
+text-align: center; ->가운데 정렬
+
+
+disaply: flex;
+ justify-content: center;/* 수평 가운데 */
+ justify-content: flex-end;/* 오른쪽 정렬 */
+ justify-content: flex-start;/* 왼쪽 정렬 */
+
+align-items: center;/* 수직 가운데 */
+align-items: flex-end;/* 오른쪽 */
+align-items: flex-start;/* 왼쪽 */
+
+flex는 현재의 자식요소를 수평과 수직정렬을 할 수있다. 
+단 자신의 너비,높이가 설정되어야 가능하다. 
+text-align: center는 플렉스 사용시 의미없음 
+플렉스를 지정하면 자식요소는 인라인 요소로 바뀐다.
+
+
+background:색상,이미지경로와,이미지반복여부,X좌표,Y좌표;
+
+
+

@@ -1,0 +1,4 @@
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+body { font:normal 14px/1 'Montserrat', 'Noto Sans', 'Roboto'; color: rgb(60,60,60);}
+a {color:rgb(255,255,255,1) ; text-decoration: none;}
+html{scroll-behavior: smooth;}

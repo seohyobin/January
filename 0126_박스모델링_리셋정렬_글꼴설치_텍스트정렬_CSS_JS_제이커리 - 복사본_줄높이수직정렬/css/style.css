@@ -1,0 +1,61 @@
+#wrap{width: 100%; text-align: center;}
+#wrap #header{width: 100%;
+    height: 123px;
+    background-color:rgba(246,245,239,1); 
+    /* border-top: 2px 선두께 선종류(실선 solid 점선dotted) 선색상(파랑); */
+    border-top: 2px solid rgb(0,0,0);
+    border-bottom: 1px solid rgb(229, 229, 229);
+    color: rgb(0,0,0);
+    line-height: 120px;/* 수직정렬 border-top,bottom 빼서 3 제외 */
+    text-align: center; /* 수평정렬 shift+alt+a 범위주석*/}
+    
+
+#wrap #main{width: 100%;}
+#wrap #main #section1 {
+    width: 100%; 
+    height: 652.797px; 
+    background-color: rgba(230,150,0,1);
+    line-height: 652.797px;}
+#wrap #main #section2 {
+    width: 100%; 
+    height: 62px; 
+    background-color: rgba(130,180,0,1);
+    line-height: 62px;}
+#wrap #main #section3 {
+    width: 100%; 
+    height: 240.172px; 
+    background-color: rgba(140,0,220,1); 
+    padding: 30px 0 40px 0;
+    line-height: 170.172px;/* 240.12-70(30+40)(패딩) */}
+#wrap #main #section4 {
+    width: 100%; 
+    height: 573px; 
+    background-color: rgba(0,150,220,1);
+    line-height: 573px;}
+#wrap #main #section5 {
+    width: 100%; 
+    height: 400px; 
+    background-color: rgba(0,220,150,1);
+    line-height: 400px;}
+#wrap #main #section6 {
+    width: 100%; 
+    height: 800px; 
+    background-color: rgba(220,150,150,1);
+    line-height:800px; }
+#wrap #main #section7 {
+    width: 100%; 
+    height: 400px; 
+    background-color: rgba(150,150,220,1);
+    line-height: 400px;}
+#wrap #main #section8 {
+    width: 100%; 
+    height: 400px; 
+    background-color: rgba(150,220,150,1);
+    line-height: 400px;}
+    
+#wrap #footer{
+    width: 100%; 
+    height: 601px; 
+    background-color: rgba(44,42,41,1);
+    line-height: 534px; /* 패딩 위 아래 값빼준 높이 */ 
+    padding: 32px 0 35px 0;}
